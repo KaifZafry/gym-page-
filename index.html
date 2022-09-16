@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zafry gym</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      padding: 0;
+      margin: 0px;
+      background: url(./img/abs-1850926.jpg);
+      background-size: 100%;
+      font-size: 18px;
+      color: white;
+      font-family: "Baloo Bhaina 2", cursive;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: white;
+    }
+
+    a:active {
+      color: white;
+    }
+
+    .brand-logo {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      height: -11px;
+      width: -21px;
+    }
+
+    .navbar-nav a {
+      text-decoration: none;
+      color: rgb(246, 243, 243);
+      display: inline-block;
+      /* background-color: rgb(104, 109, 107); */
+      border-radius: 5px;
+      padding: 0px 23px;
+      width: 88%;
+      font-size: 28px;
+    }
+
+    .navbar-nav a:hover {
+      color: rgba(236, 238, 233, 0.867);
+      /* background-color: rgb(16, 15, 13); */
+      text-decoration: underline;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    ul {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+    .navbar .navbar-nav li {
+      display: inline-block;
+      /* height: 70px; */
+      /* width: 90px; */
+      padding: 0px 30px;
+    }
+
+    .navbar-nav {
+      /* border: 2px solid red; */
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .navbar {
+      /* display: inline-block; */
+      width: 70%;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      height: 131px;
+      width: 246px;
+      filter: invert(100%);
+    }
+
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .col-6 {
+      border: 2px solid white;
+      padding: 75px;
+      width: 30%;
+      border-radius: 10px;
+    }
+
+    .form-group input {
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 16px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      padding: 9px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 96%;
+      background-color: transparent;
+      color: white;
+      font-size: 20px;
+    }
+
+    .btn:hover {
+      background-color: rgb(44, 26, 3);
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="brand-logo" href="#">
+      <img class="logo" src="./img/ZAFRY_FITNESS-removebg-preview.png" alt="" />
+    </a>
+    <div class="navbar">
+      <ul class="navbar-nav">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About us</a>
+        </li>
+        <li>
+          <a href="#">Contact us </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-6" style="position: relative;">
+      <img style="position: absolute; top:0; left:0; height:400px; width:100%;z-index:-1;" src="./img/pngwing.com.png"
+        alt="">
+      <h1>Join the best gym in Delhi</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="date" name="" placeholder="enter your age " />
+        </div>
+        <div class="form-group">
+          <input type="number" name="" placeholder="enter your mobile no" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="enter your email" />
+        </div>
+        <div class="form-group">
+          <button class="btn">submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
